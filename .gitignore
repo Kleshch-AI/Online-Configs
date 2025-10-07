@@ -98,6 +98,9 @@ InitTestScene*.unity*
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 
+# Rider
+**/.idea/
+
 #server configs authentication
 Assets/ServerConfigAuthentication.asset
 Assets/ServerConfigAuthentication.asset.meta

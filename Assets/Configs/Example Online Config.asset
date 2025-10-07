@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b7e412dcc2907459ebdf0289040a32, type: 3}
+  m_Name: Example Online Config
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Platform: 3
+  abData:
+    abVariants:
+    - Value: 0
+      Data:
+        unlockLevelIndex: 0
+        activityPeriods:
+        - start:
+            DayOfWeek: 1
+            Time:
+              hour: 0
+              minute: 0
+          end:
+            DayOfWeek: 0
+            Time:
+              hour: 0
+              minute: 0
+        rewards:
+        - points: 20
+          rewards:
+          - type: 0
+            count: 1
+        - points: 30
+          rewards:
+          - type: 1
+            count: 1
+          - type: 0
+            count: 1
+    - Value: 1
+      Data:
+        unlockLevelIndex: 0
+        activityPeriods:
+        - start:
+            DayOfWeek: 2
+            Time:
+              hour: 9
+              minute: 0
+          end:
+            DayOfWeek: 3
+            Time:
+              hour: 9
+              minute: 0
+        rewards:
+        - points: 25
+          rewards:
+          - type: 1
+            count: 1
+        - points: 35
+          rewards:
+          - type: 2
+            count: 1
+  iconsByPoints:
+  - Points: 10
+    Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  - Points: 20
+    Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
